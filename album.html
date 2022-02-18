@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/album.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <div class="sidebar"></div>
+        <div class="app-container">
+            <div class="header">
+            </div>
+            <div class="main">
+                <div class="main-header row" style="margin-left: 0px;margin-right: 0;">
+                    <div class="col-lg-3 col-md-3  main-header-left">
+                        <img class="main-header-left__img img-fluid" src="./assets/img/album.jfif" alt="">
+                    </div>
+                    <div class="col-lg-9 col-md-9 main-header-right">
+                        <div class="main-header-right__playlist">Playlist</div>
+                        <h1 class="main-header-right__name">Kill This Love</h1>
+                        <div class="main-header-right__desc">BlackPink</div>
+                        <div class="main-header-right__count">5 bài hát, 12 phút 53 giây</div>
+                    </div>
+                </div>
+                <div class="main-option">
+                    <i class="main-option__icon-player fa-solid fa-play"></i>
+                    <i class="main-option__icon fa-regular fa-heart"></i>
+                    <i class="main-option__icon fa-solid fa-ellipsis"></i>
+                </div>
+                <div class="main-table">
+                    <table class="table " id="main-table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Tiêu đề</th>
+                            <th scope="col">Album</th>
+                            <th scope="col" >
+                                <i class="fa-regular fa-clock"></i></th>
+                          </tr>
+                        </thead>
+                        <tbody  class="playlist">
+                        <!-- <div class="playlist"></div> -->
+                          <tr>
+                            <th scope="row">
+                                <span class="table-item__count">1</span>
+                                <i class="table-item__icon-play fa-solid fa-play"></i>
+                            </th>
+                            <td class="table-item">
+                                <img class="table-item__img" src="./assets/img/album1.png" alt="">
+                                <div class="table-item__title">
+                                    <span class="table-item__title-name">Solo</span>
+                                    <div class="table-item__title-artist">Jenie</div>
+                                </div>
+                            </td>
+                            <td>Otto</td>
+                            <td>
+                                <div class="item">
+                                    <i class="table-item__icon-left fa-regular fa-heart"></i>
+                                    <span>2:11</span>
+                                    <i class="table-item__icon-right fa-solid fa-ellipsis"></i>
+                                </div>
+                               
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                                <span class="table-item__count">2</span>
+                                <i class="table-item__icon-play fa-solid fa-play"></i>
+                            </th>
+                            <td class="table-item">
+                                <img class="table-item__img" src="./assets/img/album1.png" alt="">
+                                <div class="table-item__title">
+                                    <span class="table-item__title-name">Solo</span>
+                                    <div class="table-item__title-artist">Jenie</div>
+                                </div>
+                            </td>
+                            <td>Otto</td>
+                            <td>
+                                <div class="item">
+                                    <i class="table-item__icon-left fa-regular fa-heart"></i>
+                                    <span>2:11</span>
+                                    <i class="table-item__icon-right fa-solid fa-ellipsis"></i>
+                                </div>
+                               
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                                <span class="table-item__count">3</span>
+                                <i class="table-item__icon-play fa-solid fa-play"></i>
+                            </th>
+                            <td class="table-item">
+                                <img class="table-item__img" src="./assets/img/album1.png" alt="">
+                                <div class="table-item__title">
+                                    <span class="table-item__title-name">Solo</span>
+                                    <div class="table-item__title-artist">Jenie</div>
+                                </div>
+                            </td>
+                            <td>Otto</td>
+                            <td>
+                                <div class="item">
+                                    <i class="table-item__icon-left fa-regular fa-heart"></i>
+                                    <span>2:11</span>
+                                    <i class="table-item__icon-right fa-solid fa-ellipsis"></i>
+                                </div>
+                               
+                            </td>
+                          </tr>
+                          
+                          
+                        </tbody>
+                      </table>
+                </div>
+                
+            </div>
+        </div>
+        <div class="player">
+            <div class="player-left">
+                <img class='player-left__info-img' src="./assets/img/album1.png" alt="">
+                <div class="player-left__info">
+                    <span class="player-left__info-name">BED</span>
+                    <span class="player-left__info-desc">daaaaaa</span>
+                </div>
+                <!-- <i class="player-left__icon fa-solid fa-heart"></i> -->
+            </div>
+            <div class="player-center">
+                <div class="player-center__option">
+                    <div class="btn player-center__random">
+                        <i class="player-center-icon fa-solid fa-shuffle"></i>
+                    </div>
+                   <div class="btn player-center__prev">
+                    <i class="player-center-icon fa-solid fa-backward"></i>
+                   </div>
+                   
+                    <div class="play-center__toggle-play btn">
+                        <i class="player-center-icon-player fa-solid fa-circle-play"></i>
+                        <i class="player-center-icon-pause fa-solid fa-circle-pause"></i>
+                    </div>
+                    <div class="btn player-center__next">
+                        <i class="player-center-icon fa-solid fa-forward"></i>
+                    </div>
+                   <div class="btn player-center__repeat">
+                    <i class="player-center-icon fa-solid fa-repeat"></i>
+                   </div>
+                   
+                </div>
+                <div class="player-center__timeline">
+                    <div class="timeline__min">0:00</div>
+                    <input id="progress" type="range" value="0" step="1" min="0" max="100" class="timeline__scroll"/>
+                    <div class="timeline__min">3:51</div>
+                    <audio src="" id="audio"></audio>
+                </div>
+            </div>
+            <div class="player-right">
+                <i class="player-right__icon fa-solid fa-headset"></i>
+                <i class="player-right__icon fa-solid fa-film"></i>
+                <i class="player-right__icon fa-solid fa-volume-high"></i>
+                <input id="volumn" type="range" value="0" step="1" min="0" max="100" class="player-right__volume"/>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+        function loadHTML() {
+            // header = document.getElementsByClassName('app');
+            // console.log(header);
+            // header.load(index.html);
+            $(".sidebar").load("sidebar.html");
+            $(".header").load("header.html");
+        }
+        loadHTML();
+    </script>
+    <!-- <script src="./js/sidebar.js"></script> -->
+    <script src="./js/player.js"></script>
+</body>
+</html>
